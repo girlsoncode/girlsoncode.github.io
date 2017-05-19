@@ -28,7 +28,7 @@ author: {{author}}
 
 
 
-{% assign author = site.data.members[page.author] %}
+{% assign author = site.data.authors[page.author] %}
 <a rel="author"
   href="https://twitter.com/{{ author.twitter }}"
   title="{{ author.name }}">

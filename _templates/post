@@ -5,7 +5,10 @@ date: {{ date }}
 comments: true
 sharing: true
 footer: true
+author: {{author}}
 ---
+
+
 
 
 <!-- Pagination links -->
@@ -22,3 +25,12 @@ footer: true
     <span class="next ">Next</span>
   {% endif %}
 </div>
+
+
+
+{% assign author = site.data.members[page.author] %}
+<a rel="author"
+  href="https://twitter.com/{{ author.twitter }}"
+  title="{{ author.name }}">
+    {{ author.name }}
+</a>

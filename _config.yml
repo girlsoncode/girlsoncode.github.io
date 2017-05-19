@@ -24,6 +24,8 @@ url: "girlsoncode.com" # the base hostname & protocol for your site, e.g. http:/
 twitter_username: girlsoncode
 github_username:  girlsoncode
 
+
+
 # Default extension for new posts and pages
 post_ext: markdown
 page_ext: html
@@ -31,19 +33,42 @@ page_ext: html
 # Format titles with titlecase?
 titlecase: true
 
+# Where is
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+includes_dir: _includes
+draft_dir:    _drafts
+
+
 # Change default template file (in _templates/)
 post_template: post
 page_template: page
 draft_template: draft
 
-#Default permalink
-permalink: /:categories/:year/:month/:day/:title/
+# Default permalink
+permalink: 
+
+# Outputting
+paginate:       5
+permalink:      /:categories/:year/:month/:day/:title/
+paginate_path:  /page:num
+timezone:       America/Sao_Paulo
 
 # Build settings
+timezone: America/Sao_Paulo
+encoding: utf-8
 markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Serving
+detach:  true
+port:    4000
+host:    127.0.0.1
+baseurl: "" # does not include hostname
+show_dir_listing: false

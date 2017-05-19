@@ -34,9 +34,8 @@ page_ext: html
 titlecase: true
 
 # Where is
+data_dir:     _data
 plugins_dir:  _plugins
-layouts_dir:  _layouts
-includes_dir: _includes
 draft_dir:    _drafts
 
 

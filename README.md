@@ -40,19 +40,19 @@ $ octopress new page _folder/page_name
 
 This will create a new file at `_folder/page_name.html`.
 
-### Build GirlsOnCode Site
+## Build GirlsOnCode Site
 
 ```
 $ bundle exec jekyll build
 ```
 
-### Run GirlsOnCode Site
+## Run GirlsOnCode Site
 
 ```
 $ bundle exec jekyll serve
 ```
 
-## Deploying GirlsOnCode Site
+## Deploy GirlsOnCode Site
 
 Once you've built the site (with `bundle exec jekyll build`) you can deploy it like this:
 

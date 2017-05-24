@@ -1,5 +1,5 @@
 ---
-layout: {{ layout }}
+layout: post
 title: "{{ title }}"
 date: {{ date }}
 comments: true
@@ -7,30 +7,3 @@ sharing: true
 footer: true
 author: {{author}}
 ---
-
-
-
-
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div>
-
-
-
-{% assign author = site.data.authors[page.author] %}
-<a rel="author"
-  href="https://twitter.com/{{ author.twitter }}"
-  title="{{ author.name }}">
-    {{ author.name }}
-</a>

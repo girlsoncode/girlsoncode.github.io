@@ -17,7 +17,7 @@ Run `bundle` to install the gems specified in  Gemfile.
 
 ## Commands to create content
 
-They are the main commands to create contents. If you want to know how octopress-cli managethis blog read [here](https://github.com/octopress/octopress/blob/master/README.md#octopress-cli-commands).
+They are the top commands to create contents. If you want to know how octopress-cli manage this blog read [here](https://github.com/octopress/octopress/blob/master/README.md#octopress-cli-commands).
 
 ### New Post
 

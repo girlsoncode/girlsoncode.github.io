@@ -1,5 +1,0 @@
-_site
-.deploy
-.sass-cache
-.jekyll-metadata
-Gemfile.lock

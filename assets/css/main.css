@@ -3757,7 +3757,7 @@ body {
   width: 100%;
   background-color: #e8e8e8; }
 
-/* 
+/*
    Main content
    ========================================================================== */
 .entry,
@@ -3804,7 +3804,7 @@ body {
     margin-bottom: 26px;
     margin-bottom: 1.625rem; }
 
-/* 
+/*
    Entry header
    ========================================================================== */
 .entry-header {
@@ -3930,7 +3930,7 @@ body {
     color: #fff;
     text-decoration: none; }
 
-/* 
+/*
    Single post and page
    ========================================================================== */
 .entry-meta {
@@ -3941,7 +3941,7 @@ body {
   .entry-meta a {
     color: rgba(187, 187, 187, 0.8); }
   .entry-meta .vcard:before {
-    content: " by "; }
+    content: " por "; }
   .entry-meta .tag {
     display: inline-block;
     margin: 4px;
@@ -4116,7 +4116,7 @@ header .entry-meta {
       .list-item:nth-child(2) {
         text-align: right; } }
 
-/* 
+/*
    Post index
    ========================================================================== */
 #post-index #main {
@@ -4165,7 +4165,7 @@ header .entry-meta {
   .entry-image-index img {
     border-radius: 3px 3px 0 0; }
 
-/* 
+/*
    Footer
    ========================================================================== */
 .footer-wrapper {
@@ -4182,7 +4182,7 @@ header .entry-meta {
   .footer-wrapper a {
     color: rgba(85, 85, 85, 0.8); }
 
-/* 
+/*
    Social share
    ========================================================================== */
 .socialcount {
@@ -4195,14 +4195,14 @@ header .entry-meta {
   .socialcount li > a {
     border-bottom-width: 0; }
 
-/* 
+/*
    Browser upgrade
    ========================================================================== */
 .upgrade {
   padding: 10px;
   text-align: center; }
 
-/* 
+/*
    Google Search
    ========================================================================== */
 #goog-fixurl ul {

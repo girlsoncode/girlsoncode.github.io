@@ -5,27 +5,27 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Paginação &#8211; GirlsOnCode</title>
+<title>Meu Primeiro Projeto Ember &#8211; GirlsOnCode</title>
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
-<meta name="keywords" content="">
+<meta name="keywords" content="ember, tutorial">
 
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Paginação">
+<meta property="og:title" content="Meu Primeiro Projeto Ember">
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
-<meta property="og:url" content="/2017/05/19/paginao/">
+<meta property="og:url" content="/2017/09/02/meu-primeiro-projeto-ember/">
 <meta property="og:site_name" content="GirlsOnCode">
 
 
 
 
 
-<link rel="canonical" href="/2017/05/19/paginao/">
+<link rel="canonical" href="/2017/09/02/meu-primeiro-projeto-ember/">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="GirlsOnCode Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -61,7 +61,7 @@
 
 </head>
 
-<body id="post" >
+<body id="post" class="feature">
 
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
 <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
@@ -127,17 +127,24 @@
 
 
 
+<div class="entry-header">
+  <div class="image-credit">Fonte da Imagem: <a href="http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/">dargadgetz</a></div><!-- /.image-credit -->
+  <div class="entry-image">
+    <img src="/images/abstract-7.jpg" alt="Meu Primeiro Projeto Ember">
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
 
 <div id="main" role="main">
   <article class="hentry">
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="/2017/05/19/paginao/" rel="bookmark" title="Paginação">Paginação</a></h1>
+          <h1 class="entry-title"><a href="/2017/09/02/meu-primeiro-projeto-ember/" rel="bookmark" title="Meu Primeiro Projeto Ember">Meu Primeiro Projeto Ember</a></h1>
         
 
         <h2><span class="entry-date date published">
-          <time datetime="2017-05-19T16:56:04-03:00">19 /05/ 2017</time>
+          <time datetime="2017-09-02T19:35:13-03:00">02 /09/ 2017</time>
         </span></h2>
 
 
@@ -151,20 +158,51 @@ Tempo lendo ~1 minuto
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p>Olá</p>
+      <p>Esse é o primeiro post sobre Ember.js e vamos começar com a mão na massa e criando uma aplicação do zero com este framework.</p>
 
-<p>esse é um post</p>
+<p>Para criar a nossa primeira aplicação Ember é necessário instalar o pacote do ember a partir do npm. Digite o código seguinte no seu terminal:</p>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>npm install -g ember-cli@latest
+</code></pre>
+</div>
+<p>Em um próximo post eu vou explicar mais sobre esse pacote <code class="highlighter-rouge">ember-cli</code>.</p>
+
+<p>Com o ember instalado podemos criar o nossa aplicação utilizando o comando <code class="highlighter-rouge">new</code> do ember:</p>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>ember new ember-first-project
+</code></pre>
+</div>
+
+<p>Este comando cria uma nova pasta chamada <code class="highlighter-rouge">ember-first-project</code> e configura uma nova aplicação Ember dentro da pasta da aplicação. Esta aplicação Ember contém um compilador para os templates criados e um servidor de desenvolvimento.</p>
+
+<p>Agora vamos entrar na pasta criada:</p>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span><span class="nb">cd </span>ember-first-project
+</code></pre>
+</div>
+
+<p>E vamos executar o servidor de desenvolvimento executando em seu terminal o seguinte comando:</p>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>ember server
+</code></pre>
+</div>
+
+<p>Este comando inicializa um servidor local no endereço <code class="highlighter-rouge">http://localhost:4200/</code>. Abra o seu browser e digite <code class="highlighter-rouge">http://localhost:4200/</code> e verá uma página de boas vindas.</p>
+
+<p>Para parar o servidor você pode digitar Ctrl + C em seu terminal.</p>
+
+<p>Você pode ver este projeto <a href="https://github.com/melderaldo/ember-projects/tree/master/ember-first-project">aqui</a>.</p>
 
       <footer class="entry-meta">
-        <span class="entry-tags"></span>
+        <span class="entry-tags"><a href="/tags/#ember" title="Pages tagged ember" class="tag"><span class="term">ember</span></a><a href="/tags/#tutorial" title="Pages tagged tutorial" class="tag"><span class="term">tutorial</span></a></span>
         
         
-        <span class="author vcard"><span class="fn"></span></span>
+        <span class="author vcard"><span class="fn">Melina Deraldo</span></span>
         <div class="social-share">
   <ul class="socialcount socialcount-small inline-list">
-    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=/2017/05/19/paginao/" title="Compartilhar no Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Curtir</span></a></li>
-    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=/2017/05/19/paginao/" title="Compartilhar no Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-    <li class="googleplus"><a href="https://plus.google.com/share?url=/2017/05/19/paginao/" title="Compartilhar no Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=/2017/09/02/meu-primeiro-projeto-ember/" title="Compartilhar no Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Curtir</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=/2017/09/02/meu-primeiro-projeto-ember/" title="Compartilhar no Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=/2017/09/02/meu-primeiro-projeto-ember/" title="Compartilhar no Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
   </ul>
 </div><!-- /.social-share -->
       </footer>
@@ -173,11 +211,11 @@ Tempo lendo ~1 minuto
     <div class="read-more">
   
     <div class="read-more-header">
-      <a href="/2017/05/19/first-post/" class="read-more-btn">Leia Mais</a>
+      <a href="/2017/05/19/paginao/" class="read-more-btn">Leia Mais</a>
     </div><!-- /.read-more-header -->
     <div class="read-more-content">
-      <h3><a href="/2017/09/02/meu-primeiro-projeto-ember/" title="Meu Primeiro Projeto Ember">Meu Primeiro Projeto Ember</a></h3>
-      <p>Esse é o primeiro post sobre Ember.js e vamos começar com a mão na massa e criando uma aplicação do zero com este framework.Para criar a ...&hellip; <a href="/2017/09/02/meu-primeiro-projeto-ember/">Continue lendo</a></p>
+      <h3><a href="/2017/05/19/paginao/" title="Paginação">Paginação</a></h3>
+      <p>Oláesse é um post&hellip; <a href="/2017/05/19/paginao/">Continue lendo</a></p>
     </div><!-- /.read-more-content -->
   
   <div class="read-more-list">

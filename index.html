@@ -5,16 +5,16 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Post Antigos &#8211; GirlsOnCode</title>
+<title>GirlsOnCode</title>
 <meta name="description" content="Nosso Site">
-<meta name="keywords" content="Jekyll, theme, themes, responsive, blog, modern">
+<meta name="keywords" content="GirlsTech, Desenvolvimento, CSS, Programação, Meninas programando, Web">
 
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Post Antigos">
+<meta property="og:title" content="GirlsOnCode">
 <meta property="og:description" content="Nosso Site">
 <meta property="og:url" content="/">
 <meta property="og:site_name" content="GirlsOnCode">
@@ -92,9 +92,15 @@
 					<h4>Tayane Fernandes</h4>
 					<p>eu sou a tay</p>
 				</li>
-				
-				
-				
+				<li>
+					<a href="https://twitter.com/tayanefernandes"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
+				</li>
+				<li>
+					<a href="https://linkedin.com/in/tayanefernandes"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
+				</li>
+				<li>
+					<a href="https://github.com/tayanefernandes"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
 				
 				<li><a href="/about/"><span class="btn btn-inverse">
 				Detalhes</span></a></li>
@@ -122,13 +128,13 @@
   <div class="image-credit">Fonte da Imagem: <a href="http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/">dargadgetz</a></div><!-- /.image-credit -->
   
     <div class="entry-image">
-      <img src="/images/abstract-1.jpg" alt="Post Antigos">
+      <img src="/images/abstract-1.jpg" alt="">
     </div><!-- /.entry-image -->
   
   <div class="header-title">
     <div class="header-title-wrap">
       <h1>GirlsOnCode</h1>
-      <h2>Post Antigos</h2>
+      <h2></h2>
     </div><!-- /.header-title-wrap -->
   </div><!-- /.header-title -->
 </div><!-- /.entry-header -->
@@ -137,9 +143,83 @@
   
 <article class="hentry">
   <header>
+    <!-- Habilita a imagem do post
     
+      <div class="entry-image-index">
+        <a href="/2017/09/02/meu-primeiro-projeto-ember/" title="Meu Primeiro Projeto Ember"><img src="/images/abstract-7.jpg" alt="Meu Primeiro Projeto Ember"></a>
+      </div>
+     -->
     <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="2017-05-19T16:56:04-03:00"><a href="/2017/05/19/paginao/">May 19, 2017</a></time></span><span class="author vcard"><span class="fn"><a href="/about/" title="About "></a></span></span>
+        <span class="entry-date date published updated">
+          <time datetime="2017-09-02T19:35:13-03:00"><a href="/2017/09/02/meu-primeiro-projeto-ember/">02/09/2017</a></time>
+        </span>
+        
+        <span class="author vcard">
+          <span class="fn"><a href="/about/" title="About ">Melina Deraldo</a></span>
+        </span>
+      
+      <span class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        
+Tempo lendo ~1 minuto
+      </span><!-- /.entry-reading-time -->
+      
+    </div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title"><a href="/2017/09/02/meu-primeiro-projeto-ember/" rel="bookmark" title="Meu Primeiro Projeto Ember" itemprop="url">Meu Primeiro Projeto Ember</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    <p>Esse é o primeiro post sobre Ember.js e vamos começar com a mão na massa e criando uma aplicação do zero com este framework.</p>
+
+<p>Para criar a nossa primeira aplicação Ember é necessário instalar o pacote do ember a partir do npm. Digite o código seguinte no seu terminal:</p>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>npm install -g ember-cli@latest
+</code></pre>
+</div>
+<p>Em um próximo post eu vou explicar mais sobre esse pacote <code class="highlighter-rouge">ember-cli</code>.</p>
+
+<p>Com o ember instalado podemos criar o nossa aplicação utilizando o comando <code class="highlighter-rouge">new</code> do ember:</p>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>ember new ember-first-project
+</code></pre>
+</div>
+
+<p>Este comando cria uma nova pasta chamada <code class="highlighter-rouge">ember-first-project</code> e configura uma nova aplicação Ember dentro da pasta da aplicação. Esta aplicação Ember contém um compilador para os templates criados e um servidor de desenvolvimento.</p>
+
+<p>Agora vamos entrar na pasta criada:</p>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span><span class="nb">cd </span>ember-first-project
+</code></pre>
+</div>
+
+<p>E vamos executar o servidor de desenvolvimento executando em seu terminal o seguinte comando:</p>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>ember server
+</code></pre>
+</div>
+
+<p>Este comando inicializa um servidor local no endereço <code class="highlighter-rouge">http://localhost:4200/</code>. Abra o seu browser e digite <code class="highlighter-rouge">http://localhost:4200/</code> e verá uma página de boas vindas.</p>
+
+<p>Para parar o servidor você pode digitar Ctrl + C em seu terminal.</p>
+
+<p>Você pode ver este projeto <a href="https://github.com/melderaldo/ember-projects/tree/master/ember-first-project">aqui</a>.</p>
+
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+
+<article class="hentry">
+  <header>
+    <!-- Habilita a imagem do post
+     -->
+    <div class="entry-meta">
+        <span class="entry-date date published updated">
+          <time datetime="2017-05-19T16:56:04-03:00"><a href="/2017/05/19/paginao/">19/05/2017</a></time>
+        </span>
+        
+        <span class="author vcard">
+          <span class="fn"><a href="/about/" title="About "></a></span>
+        </span>
       
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
@@ -162,9 +242,16 @@ Tempo lendo ~1 minuto
 
 <article class="hentry">
   <header>
-    
+    <!-- Habilita a imagem do post
+     -->
     <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="2017-05-19T16:23:37-03:00"><a href="/2017/05/19/first-post/">May 19, 2017</a></time></span><span class="author vcard"><span class="fn"><a href="/about/" title="About "></a></span></span>
+        <span class="entry-date date published updated">
+          <time datetime="2017-05-19T16:23:37-03:00"><a href="/2017/05/19/first-post/">19/05/2017</a></time>
+        </span>
+        
+        <span class="author vcard">
+          <span class="fn"><a href="/about/" title="About "></a></span>
+        </span>
       
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
@@ -182,6 +269,7 @@ Tempo lendo ~1 minuto
 
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
+
 
 
 

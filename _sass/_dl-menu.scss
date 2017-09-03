@@ -14,6 +14,7 @@
 	-moz-perspective-origin: 50% 200%;
 	perspective-origin: 50% 200%;
 
+
 	@media #{$medium} {
 		position: fixed;
 		max-width: 175px;
@@ -24,6 +25,9 @@
 	&.dl-menuopen {
 		width: 100%;
 		height: 100%;
+		ul {
+			padding-bottom: 5px 0;
+		}
 	}
 
 	button {
@@ -66,8 +70,8 @@
 		background: #fff;
 		top: 10px;
 		left: 16%;
-		box-shadow: 
-			0 10px 0 #fff, 
+		box-shadow:
+			0 10px 0 #fff,
 			0 20px 0 #fff;
 	}
 
@@ -84,8 +88,12 @@
 
 		h4 {
 			margin:0;
-			padding: 15px 20px 0;
+			padding: 15px 20px 15px 15px;
 			color: rgba(#fff,0.9);
+		}
+
+		img {
+    	padding-top: 15px;
 		}
 
 		p {
@@ -105,16 +113,20 @@
 		a {
 			display: block;
 			position: relative;
-			padding: 15px 20px;
+			padding: 5px 20px;
 			@include font-rem(14);
 			line-height: 20px;
 			font-weight: 400;
 			color: #fff;
 			outline: none;
+
+			span {
+				font-size: 16px;
+			}
 		}
 
 		&.dl-back > a {
-			padding-left: 30px;
+			padding: 10px 0 10px 30 px;
 			background: rgba(0,0,0,0.2);
 		}
 
@@ -122,7 +134,7 @@
 		> a:not(:only-child):after {
 			position: absolute;
 			top: 0;
-			line-height: 50px;
+			line-height: 30px;
 			font-family: "fontawesome";
 			color: #fff;
 			speak: none;
@@ -184,9 +196,11 @@
 	.dl-submenu {
 		border-radius: 3px;
 		box-shadow: 0 12px 24px rgba(#000,0.4);
+		text-align: center;
 
 		.btn {
 			margin-bottom: 0;
+			padding: 5px 25px;
 		}
 	}
 
@@ -196,10 +210,10 @@
 	}
 }
 
-/* 
+/*
 When a submenu is opened, we will hide all li siblings.
 For that we give a class to the parent menu called "dl-subview".
-We also hide the submenu link. 
+We also hide the submenu link.
 The opened submenu will get the class "dl-subviewopen".
 All this is done for any sub-level being entered.
 */

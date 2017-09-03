@@ -15,7 +15,7 @@ tags: [ember, tutorial]
 
 Esse é o primeiro post sobre Ember.js e vamos começar com a mão na massa e criando uma aplicação do zero com este framework.
 
-Para criar a nossa primeira aplicação Ember é necessário instalar o pacote do ember a partir do npm. Digite o código seguinte no seu terminal:
+Para criar a nossa primeira aplicação Ember é necessário instalar o pacote do ember a partir do npm. Digite o seguinte comando no seu terminal:
 
 ```shell
 $ npm install -g ember-cli@latest

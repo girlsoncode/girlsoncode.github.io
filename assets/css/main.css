@@ -3537,6 +3537,8 @@ svg:not(:root) {
   .dl-menuwrapper.dl-menuopen {
     width: 100%;
     height: 100%; }
+    .dl-menuwrapper.dl-menuopen ul {
+      padding-bottom: 5px 0; }
   .dl-menuwrapper button {
     top: 0;
     left: 0;
@@ -3570,7 +3572,7 @@ svg:not(:root) {
     background: #fff;
     top: 10px;
     left: 16%;
-    box-shadow: 0 10px 0 #fff,  0 20px 0 #fff; }
+    box-shadow: 0 10px 0 #fff, 0 20px 0 #fff; }
   .dl-menuwrapper ul {
     padding: 0;
     list-style: none;
@@ -3581,8 +3583,10 @@ svg:not(:root) {
     position: relative; }
     .dl-menuwrapper li h4 {
       margin: 0;
-      padding: 15px 20px 0;
+      padding: 15px 20px 15px 15px;
       color: rgba(255, 255, 255, 0.9); }
+    .dl-menuwrapper li img {
+      padding-top: 15px; }
     .dl-menuwrapper li p {
       margin: 0;
       padding: 15px 20px;
@@ -3598,21 +3602,23 @@ svg:not(:root) {
     .dl-menuwrapper li a {
       display: block;
       position: relative;
-      padding: 15px 20px;
+      padding: 5px 20px;
       font-size: 14px;
       font-size: 0.875rem;
       line-height: 20px;
       font-weight: 400;
       color: #fff;
       outline: none; }
+      .dl-menuwrapper li a span {
+        font-size: 16px; }
     .dl-menuwrapper li.dl-back > a {
-      padding-left: 30px;
+      padding: 10px 0 10px 30 px;
       background: rgba(0, 0, 0, 0.2); }
     .dl-menuwrapper li.dl-back:after,
     .dl-menuwrapper li > a:not(:only-child):after {
       position: absolute;
       top: 0;
-      line-height: 50px;
+      line-height: 30px;
       font-family: "fontawesome";
       color: #fff;
       speak: none;
@@ -3659,16 +3665,18 @@ svg:not(:root) {
     transform: translateY(0px); }
   .dl-menuwrapper .dl-submenu {
     border-radius: 3px;
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); }
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    text-align: center; }
     .dl-menuwrapper .dl-submenu .btn, .dl-menuwrapper .dl-submenu .read-more-header a, .read-more-header .dl-menuwrapper .dl-submenu a, .dl-menuwrapper .dl-submenu #goog-wm-sb {
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      padding: 5px 25px; }
   .dl-menuwrapper li .dl-submenu {
     display: none; }
 
-/* 
+/*
 When a submenu is opened, we will hide all li siblings.
 For that we give a class to the parent menu called "dl-subview".
-We also hide the submenu link. 
+We also hide the submenu link.
 The opened submenu will get the class "dl-subviewopen".
 All this is done for any sub-level being entered.
 */

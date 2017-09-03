@@ -1,8 +1,8 @@
 ---
 layout: post-index
-title: Post Antigos
+title:
 description: "Nosso Site"
-tags: [Jekyll, theme, themes, responsive, blog, modern]
+tags: [GirlsTech, Desenvolvimento, CSS, Programação, Meninas programando, Web]
 comments: false
 image:
   feature: abstract-1.jpg
@@ -13,13 +13,20 @@ image:
 {% for post in paginator.posts %}
 <article class="hentry">
   <header>
+    <!-- Habilita a imagem do post
     {% if post.image.feature %}
       <div class="entry-image-index">
         <a href="{{ site.github.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.github.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}"></a>
-      </div><!-- /.entry-image -->
-    {% endif %}
+      </div>
+    {% endif %} -->
     <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.github.url }}{{ post.url }}">{{ post.date | date: "%d/%m/%Y" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.github.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
+        <span class="entry-date date published updated">
+          <time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.github.url }}{{ post.url }}">{{ post.date | date: "%d/%m/%Y" }}</a></time>
+        </span>
+        {% assign author = site.data.authors[post.author] %}
+        <span class="author vcard">
+          <span class="fn"><a href="{{ site.github.url }}/about/" title="About {{ site.owner.name }}">{{ author.name }}</a></span>
+        </span>
       {% if site.reading_time %}
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>

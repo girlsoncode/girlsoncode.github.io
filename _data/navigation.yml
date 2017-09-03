@@ -1,7 +1,7 @@
 # Menu navigation links
 
-- title: Sobre
-  url: /about/
-
 - title: Links Externos
   url: http://google.com
+
+- title: Música Favorita
+  url: https://www.youtube.com/watch?v=YykjpeuMNEk

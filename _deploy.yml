@@ -9,5 +9,4 @@ git_url: git@github.com:girlsoncode/girlsoncode.github.io.git  # remote reposito
 #
 git_branch: master                        # Git branch where static site files are commited
 
-
 # remote_path:                            # Destination directory
